@@ -1,0 +1,116 @@
+.humans{
+    padding: 0 10%;
+    background-color: #F8F8F8;
+}
+.humans-text h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;  
+}
+.humans-text p{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #4F5665;
+}
+.about-people{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.people-block{
+    padding: 2%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 320px;
+    height: 210px;
+    border: 1px solid #F53838;
+    border-radius:10px ;
+}
+.human-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.human{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.star{
+    display: flex;
+    gap: 10px;
+}
+
+#subscribe{
+   margin-top: 10%;
+   padding: 6%;
+width: 100%;
+height: 233px;
+background: #FFFFFF;
+display: flex;
+box-sizing: border-box;
+justify-content: space-between;
+align-items: center;
+border-radius: 10px;
+}
+
+
+#subscribe h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+#subscribe p {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #4F5665;
+}
+#subscribe a{
+    width: 250px;
+    height: 60px;
+    background: #F53838;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 992px) {
+ footer{
+    display: flex;
+    flex-direction: column;
+ }
+ .footer-logo-images{
+    display: flex;
+ }
+ .about-people{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #subscribe{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    text-align: center;
+  }
+ 
+ #subscribe a{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+ }
+   }
+   @media screen and (max-width: 767px) {
+   
+   }
+   @media screen and (max-width: 480px) {
+   }

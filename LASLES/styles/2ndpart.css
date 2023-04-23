@@ -1,0 +1,132 @@
+.section{
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-header{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+}
+.section-header h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.section-header p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#202020;
+}
+.section-header button{
+    width: 50%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color:#f53838;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: -1px 8px 10px -3px #f53838;
+
+}
+
+.second-small-block{
+    margin:  1.5% 10%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1px solid;
+    border-radius: 15px;
+    -webkit-box-shadow: 4px 4px 21px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 21px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 21px 0px rgba(34, 60, 80, 0.2);
+
+}
+
+.small-block{
+    padding: 10%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.small-block p{
+line-height: 1.5;
+}
+.small-block p:first-child{
+    font-size: 18px;
+    font-weight: 500;
+}
+.grey-line{
+
+    border: 1px solid #EEEFF2;
+    width: 0px;
+    height: 125.57px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+   
+    .section-header{
+        display: flex;
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 5%;
+
+    }
+    .section-header h2{
+        font-size: 25px;
+    }
+    .section-header button{
+        width: 100%;
+    }
+    .section img{
+        width: 100%;
+        height: auto;
+    }
+    .second-small-block{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 50%;
+        align-items: flex-start;
+        align-items: center;
+
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .grey-line{
+        height: 0;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 480px) {
+    .second-small-block{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 440px;
+        align-items: flex-start;
+        align-items: center;
+
+    }
+}
